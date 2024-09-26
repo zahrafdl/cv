@@ -1,0 +1,66 @@
+/* Style dasar untuk seluruh dokumen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style responsif untuk tampilan lebih kecil */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+
